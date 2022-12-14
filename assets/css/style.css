@@ -1,0 +1,64 @@
+body{  
+    background: url(../images/black\ &\ white.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 300px;
+    justify-content: center;
+}
+header{   
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    color: white;
+}  
+fieldset{    
+    margin-left: 25%;
+    margin-top: 20%; 
+}
+h1{   
+    text-align: center;
+    color:blue;
+    padding: 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+#name{
+    margin-left: 45px;
+    padding-bottom: 8px;
+    border-radius: 8px; 
+}
+#email{   
+    margin-left: 45px;
+    padding-bottom: 10px;
+    border-radius:8px ;
+}
+#password{   
+    margin-left: 15px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+button{   
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 25px;
+    background-color: white;
+    color:blue;
+    border-radius: 4px;
+    padding-left: 3px;
+    justify-content: center
+}
+label{   
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.in{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
