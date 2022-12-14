@@ -130,10 +130,25 @@ h2{
     flex-direction: column;
     margin-left: 250px;
 }
-.ac{  
+.sk{  
     display: flex;
     flex-direction: column;
     margin-left: 250px;
+}
+.fa-facebook{  
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
+.fa-square-twitter{  
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
+.fa-square-github{  
+    display: flex;
+    flex-direction: row;
+    color: blue;
 }
 .fa-location-dot {
     font-size: 15px;
