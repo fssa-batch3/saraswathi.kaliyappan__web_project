@@ -85,9 +85,7 @@ main img{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    width: 300px;
-    background-color: #ccffff;
-   
+    width: 400px; 
 }
 .right{  
     display: flex;
@@ -97,12 +95,15 @@ main img{
     margin-left: 450px;
     display: flex;
     font-size: x-large;
-    background-color: #ccffff;
 }
-.left{   
+.left{ 
     position: relative;
-    bottom: 250px;
-    background-color: #ccffff;
+    bottom: 260px;
+}
+.left img{  
+    height: 400px;
+    width: 350px;
+    border-radius: 8px;
 }
 p ul{  
     display: flex;
@@ -120,9 +121,9 @@ h2{
     display: flex;
     flex-direction: row;
     border: 2px solid black;
-    background-color: #ccffff;
+    background-color:  lightgray;
     padding: 100px;
-    padding-bottom: 500px;
+    padding-bottom: 40px;
 }
 .cs{   
     display: flex;
@@ -134,8 +135,21 @@ h2{
     flex-direction: column;
     margin-left: 250px;
 }
-.fa-sharp {
-    font-size: 30px;
+.fa-location-dot {
+    font-size: 15px;
+    justify-content: space-between;
     color:blue;
-    
+    margin-left: 4px;   
 }
+.fa-phone{  
+    justify-content: space-between;
+    font-size: 15px;
+    color:blue;
+    margin-left: 4px;  
+}
+.fa-envelope{
+    font-size: 15px;
+    justify-content: space-between;
+    color:blue;
+    margin-left: 5px;  
+ }
