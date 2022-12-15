@@ -62,7 +62,7 @@ header{
     border: 1px solid #ddd;
     border-radius: 4px;
     padding:10px ;
-    width: 150px;
+    width: 100px;
   }
   .buy{
     display: flex;
@@ -88,12 +88,12 @@ header{
   
   .left img {  
     height: 300px;
-    width: 480px;
+    width: 350px;
    
   }
   .left{
     height:500px;
-    width:50%;
+    width:60%;
     
   }
   .right{

@@ -60,13 +60,9 @@ i{
        display: flex;
        margin-right: 30px;
 }
-body{ 
-    background-color: liner-gradient(90deg,blue,skyblue,blue);
-}
 img{  
     width: 320px;
     height: 200px;
-    position: absolute;
 }
 .container{  
     width: 350px;
@@ -75,70 +71,61 @@ img{
     margin-top: 15%;
     margin-left: 10%;
     perspective: 1000px;
-    transform-style: preserve-3d;
-    transform: rotateX(-10deg) rotateZ(-10deg);
-    animation: ror 20s linear infinite;
+    border: 2px solid black;
 }
-@keyframes ror{  
-    50%{  
-        transform: rotateX(30deg);
-    }
-    50%{ 
-        transform: rotateX(-30deg);  
-    }
+.leht img{  
+    height: 300px;
+    width: 350px;
 }
-.images{  
-    width: 100%;
-    position: absolute;
-    transform-style: preserve-3d; 
-    animation: rotate 20s linear infinite;
-}
-@keyframes rotate{  
-    from{ 
-
-    }
-    to{ 
-        transform: rotateY(360deg);
-    }
-}
-img:nth-child(1){  
-    transform: rotateY(60deg) translate(300px);
-}
-img:nth-child(2){  
-    transform: rotateY(120deg) translate(300px);
-}
-img:nth-child(3){  
-    transform: rotateY(180deg) translate(300px);
-}
-img:hover{ 
-    width: 340px;
-    height: 220px;
-    cursor: pointer;
+.left{
+    height:500px;
+    width:60%;
 }
 fieldset{  
     display: flex;
     flex-direction: row;
     justify-content:center;
-    color: blueviolet;
-    font-style: italic;
-    font-size: x-large;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     padding: 50px;
     background-color: rgb(105, 190, 119); 
     border-radius: 5px; 
     margin-left: 29%;
-    margin-top: 10px;
     width: 500px;
-    height: 800px;
+    height: 500px;
+    bottom: 300px;
+}
+.right{  
+
 }
 h1{  
     display: flex;
     flex-direction: row;
     text-align: center;
     color: rgb(197, 4, 4);
-    font-size: xxx-large;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .bn{  
     display: flex;
     flex-direction: row; 
 }
+.ca{  
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    background-color: gray;
+    padding: 100px;
+}
+.cs{   
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+.ac{  
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+} 
+
