@@ -7,35 +7,35 @@ header{
     background-color: aqua;
     height:50px;
    }
-   .navbar a{
+.navbar a{
        text-decoration: none;
        padding: 5px 12px;
        font-size: larger;
        font-style: italic;
        color: rgb(187, 92, 231);
    }
-   .dropdown-link{  
+.dropdown-link{  
        display: none;
        position: absolute;
        background-color: #f1f1f1;
        min-width: 160px;
        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
        z-index: 1;  
-   }
-   .dropdown-link a{   
+}
+.dropdown-link a{   
        color: black;
        padding: 12px 16px;
        text-decoration: none;
        display: block; 
-   }
-   .dropdown:hover .dropdown-link{
+}
+.dropdown:hover .dropdown-link{
        display: block;
-    }
-   .dropdown{
+}
+.dropdown{
        display: inline-block;
        position: relative;  
-   }
-   .dropbn{
+}
+.dropbn{
        color: rgb(187, 92, 231);
        padding: 5px 12px;
        font-size: 15px;
@@ -43,23 +43,78 @@ header{
        background-color:aqua;
        font-style: italic;
        font-size: larger;
-   }
-   input{
+}
+input{
        width: 300px;
        height: 20px;
        text-align: center;
        margin-top: 5px;
        border-radius: 5px soild black;
-   }
-   i{  
+}
+i{  
      position: relative;
      margin-left: 340px;
      margin-top: 10px;
-   }
-   .user i{  
+}
+.user i{  
        display: flex;
        margin-right: 30px;
-   }
+}
+body{ 
+    background-color: liner-gradient(90deg,blue,skyblue,blue);
+}
+img{  
+    width: 320px;
+    height: 200px;
+    position: absolute;
+}
+.container{  
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotateZ(-10deg);
+    animation: ror 20s linear infinite;
+}
+@keyframes ror{  
+    50%{  
+        transform: rotateX(30deg);
+    }
+    50%{ 
+        transform: rotateX(-30deg);  
+    }
+}
+.images{  
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d; 
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{  
+    from{ 
+
+    }
+    to{ 
+        transform: rotateY(360deg);
+    }
+}
+img:nth-child(1){  
+    transform: rotateY(60deg) translate(300px);
+}
+img:nth-child(2){  
+    transform: rotateY(120deg) translate(300px);
+}
+img:nth-child(3){  
+    transform: rotateY(180deg) translate(300px);
+}
+img:hover{ 
+    width: 340px;
+    height: 220px;
+    cursor: pointer;
+}
 fieldset{  
     display: flex;
     flex-direction: row;
