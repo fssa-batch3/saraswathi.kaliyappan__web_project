@@ -4,7 +4,7 @@ body{
 header{  
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #b3e6ff;
     height:50px;
    }
 .navbar a{
@@ -40,7 +40,7 @@ header{
        padding: 5px 12px;
        font-size: 15px;
        border: none;
-       background-color:aqua;
+       background-color: #b3e6ff;;
        font-style: italic;
        font-size: larger;
 }
