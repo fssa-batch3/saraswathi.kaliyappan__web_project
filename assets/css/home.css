@@ -87,10 +87,8 @@ h1{
     color: rgb(244, 10, 197);
 }
 .container1{  
-    background-color: aqua;
-    border: 2px solid black;
-    box-sizing: 35px;
-    height: 450px;
+    box-sizing: 55px;
+    height: 700px;
     position: relative;
     bottom: 247px;
 }
@@ -104,8 +102,8 @@ main img{
     height: 300px;
     width: 400px;
     border-radius: 5px;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 150px;
+    margin-left: 50px;
 }
 .right1{  
     display: flex;
@@ -138,34 +136,30 @@ h2{
     flex-direction: row; 
 }
 footer{
-    background-color: aqua; 
+    background-color: lightslategray; 
     border: 2px solid black;
+    box-sizing: 200px;
 }
 .fa-solid{ 
     display: flex; 
     flex-direction: row;
     color: blue;
-    margin-right: 300px;
+    margin-left: 300px;
 }
-.fa-location{
-    display: flex;
-    flex-direction: row;  
-    color: blue;
-    margin-right: 300px;
+.cact{  
+   display: flex; 
+   flex-direction: row;
+
 }
 .fa-brands{
     display: flex;
     color: blue;
-    flex-direction: row;
-    height: 30px;
+    flex-direction: column;
+
 }
 .cpany{  
     display: flex;
-    flex-direction: row;
-    margin-left: 300px;
-}
-.cs{  
-    display: flex;
     flex-direction: column;
-    margin-right: 600px; 
+    margin-left: 1000px;
+    bottom: 500px;
 }
