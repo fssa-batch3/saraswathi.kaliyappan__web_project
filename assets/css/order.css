@@ -73,13 +73,13 @@ img{
     perspective: 1000px;
     border: 2px solid black;
 }
-.leht img{  
+.left img{ 
     height: 300px;
     width: 350px;
 }
 .left{
-    height:500px;
-    width:60%;
+    height: 500px;
+    width: 60%;
 }
 fieldset{  
     display: flex;
@@ -95,9 +95,6 @@ fieldset{
     width: 500px;
     height: 500px;
     bottom: 300px;
-}
-.right{  
-
 }
 h1{  
     display: flex;
