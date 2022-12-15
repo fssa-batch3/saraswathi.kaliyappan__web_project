@@ -138,7 +138,34 @@ h2{
     flex-direction: row; 
 }
 footer{
-    display: flex;
     background-color: aqua; 
     border: 2px solid black;
+}
+.fa-solid{ 
+    display: flex; 
+    flex-direction: row;
+    color: blue;
+    margin-right: 300px;
+}
+.fa-location{
+    display: flex;
+    flex-direction: row;  
+    color: blue;
+    margin-right: 300px;
+}
+.fa-brands{
+    display: flex;
+    color: blue;
+    flex-direction: row;
+    height: 30px;
+}
+.cpany{  
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+.cs{  
+    display: flex;
+    flex-direction: column;
+    margin-right: 600px; 
 }
