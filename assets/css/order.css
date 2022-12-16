@@ -170,24 +170,24 @@ h5{
        border: 2px solid black;
        background-color: gray;
        padding: 100px;
-   }
-   .cs{   
+}
+.cs{   
        display: flex;
        flex-direction: column;
        margin-left: 150px;
-   }
-   .ac{  
+}
+.ac{  
        display: flex;
        flex-direction: column;
        margin-left: 250px
    
-   } 
-   .fa-solid{ 
+} 
+.fa-solid{ 
        display: flex; 
        flex-direction: row;
        color: blue;
        margin-left: 30px;
-   }
-   footer{
+}
+footer{
        margin-top: 80px;
-   }
+}
