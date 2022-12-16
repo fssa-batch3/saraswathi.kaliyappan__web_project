@@ -107,14 +107,27 @@ tfoot{
     border: 2px solid black;
     background-color: gray;
     padding: 100px;
+    position: relative;
+    bottom: 500px;
 }
 .cs{   
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 50px;
 }
 .ac{  
     display: flex;
     flex-direction: column;
     margin-left: 250px;
+    position: relative;
+    bottom: 50px;
+
+} 
+.fa-solid{ 
+    display: flex; 
+    flex-direction: row;
+    color: blue;
+    margin-left: 30px;
 }
