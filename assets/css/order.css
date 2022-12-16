@@ -108,41 +108,61 @@ h4{
 h5{  
        font-family: 'Poppins', sans-serif;
 }
-#adress{  
+#address{  
        margin-left: 45px;
        padding-bottom: 10px;
        border-radius:8px ;
+       box-sizing: 5px;
 }
-#phone{  
-       margin-left: 45px;
+#phone{ 
+       position: relative; 
+       margin-left:58px;
        padding-bottom: 10px;
        border-radius:8px ;
+       box-sizing: 5px;
 }
 #location{  
-       margin-left: 45px;
+       position: relative;
+       margin-left: 40px;
        padding-bottom: 10px;
        border-radius:8px ;
+       box-sizing: 5px;
 }
 #time{  
-       margin-left: 45px;
-    padding-bottom: 10px;
-    border-radius:8px ;
-}
-#date{  
-    margin-left: 45px;
-    padding-bottom: 10px;
-    border-radius:8px ;
-}
-#quantity{  
-       margin-left: 45px;
+       position: relative;
+       margin-left:64px;
        padding-bottom: 10px;
        border-radius:8px ;
+}
+#date{  
+       position: relative;
+       margin-left: 65px;
+       padding-bottom: 10px;
+       border-radius:8px ;
+       box-sizing: 5px;
+}
+#quantity{ 
+       position: relative; 
+       margin-left: 40px;
+       padding-bottom: 10px;
+       border-radius:8px ;
+       box-sizing: 5px;
+}
+#bt{
+       margin-top: 20px;
+       margin-left:37%;
+       width: 100px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: dodgerblue;
 }
 .bn{  
        display: flex;
        flex-direction: row;
        margin-right:  150px;
-       margin-top: 350px;
+       margin-top: 80px;
+       
+       
 }
 .ca{  
        display: flex;
@@ -168,4 +188,6 @@ h5{
        color: blue;
        margin-left: 30px;
    }
-   
+   footer{
+       margin-top: 80px;
+   }
