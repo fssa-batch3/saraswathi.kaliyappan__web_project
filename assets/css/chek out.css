@@ -132,6 +132,8 @@ tfoot{
     margin: 0-16px;
 }
 .col-25{  
+    display: flex;
+    justify-content: space-between;
     -ms-flex: 25%;
     flex: 25%;
 }
@@ -183,13 +185,16 @@ label{
 }
 .btn:hover{  
     background-color: #45a049;
+    box-sizing: ;
 }
 span.price{   
     float: right;
     color: gray;
 }
-.row{  
-    flex-direction: column-reverse;
+@media(max-width:800px){  
+    .row{  
+        flex-direction: column-reverse;
+    }
 }
 .col-25{  
     margin-bottom: 20px;
