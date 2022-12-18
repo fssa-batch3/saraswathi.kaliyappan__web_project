@@ -141,21 +141,13 @@ h3{
        border-radius:8px ;
        box-sizing: 5px;
 }
-#bt{
+#bt{  
        margin-top: 20px;
        margin-left:37%;
        width: 100px;
        height: 40px;
        border-radius: 10px;
        background-color: dodgerblue;
-}
-.bn{  
-       display: flex;
-       flex-direction: row;
-       margin-right:  150px;
-       margin-top: 80px;
-       
-       
 }
 .ca{  
        display: flex;
@@ -164,6 +156,7 @@ h3{
        background-color: gray;
        padding: 100px;
        font-family: 'Poppins', sans-serif;
+       margin-top: 200px;
 }
 .cs{   
        display: flex;
@@ -180,7 +173,4 @@ h3{
        flex-direction: row;
        color: blue;
        margin-right: 15px;
-}
-footer{  
-       right: 20px;
 }

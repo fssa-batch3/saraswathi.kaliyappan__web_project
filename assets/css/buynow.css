@@ -85,12 +85,14 @@ h3{
     margin-left: 100px;
     font-size: x-large;
 }
-ght:  150px;
-    margin-top: 200px;
-}.bn{  
-    display: flex;
-    flex-direction: row;
-    margin-ri
+.bn{  
+    margin-top: 20px;
+    margin-left:37%;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+}
 .left img {  
     height: 300px;
     width: 290px;
