@@ -1,3 +1,6 @@
+ody{
+  font-family: 'Poppins', sans-serif;
+}
 header{  
     display: flex;
     justify-content: space-between;
@@ -110,6 +113,7 @@ header{
     border: 2px solid black;
     background-color: gray;
     padding: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 .cs{   
     display: flex;
@@ -120,11 +124,11 @@ header{
     display: flex;
     flex-direction: column;
     margin-left: 250px;
-
 } 
 .fa-solid{ 
     display: flex; 
     flex-direction: row;
     color: blue;
-    margin-left: 30px;
+    margin-left: 18px;
 }
+

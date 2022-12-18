@@ -76,18 +76,21 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 15px;
+    border-radius: 5px;
 }
 .bs2{   
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 15px;
+    border-radius: 5px;
 }
 .bs3{   
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 15px;
+    border-radius: 5px;
 }
 h3{  
     display: flex;
@@ -137,5 +140,5 @@ h3{
     display: flex; 
     flex-direction: row;
     color: blue;
-    margin-left: 30px;
+    margin-left: 15px;
 }
