@@ -61,27 +61,13 @@ body{
     display: grid;
     font-family: var(--font-family-base);
     line-height: 1.5;
-    margin: 0;
     min-block-size: 100vh;
     padding: 5vmin;
     place-items: center;
 }
-button{  
-    border: 0;
-    color: inherit;
-    cursor: pointer;
-    font: inherit;
-     background-color: var(--colorprimary);
-}
-.chekout{  
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
 h2{  
     font-size: var(--font-size-h2);
     line-height: 0.5em;
-    padding: 0;
 }
 table{  
     border-collapse: collapse;
@@ -99,6 +85,71 @@ tfoot{
 .align{  
     display: grid;
     place-items: center;
+}
+.row{  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+.col-50{ 
+    -ms-flex: 25px;
+    flex: 25PX;
+}
+.col-75{ 
+    -ms-flex:"20px"; 
+     flex: 20PX;
+}
+.col-50,
+.col-75{  
+    padding:16px;
+}
+.container{  
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+input[type=text]{  
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+}
+input[type=number]{  
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+}
+label{  
+    margin-bottom: 2px;
+    display: block;
+}
+.icon-container{  
+    margin-bottom: 10px;
+    padding: 7px ;
+    font-size: 24px;
+}
+.btn{  
+    background-color: #04aa6d;
+    color: white;
+    padding: 25px;
+    margin: 10px ;
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 600PX;
+    margin-bottom: 9px;
+}
+.btn:hover{  
+    background-color: #45a049;
+    box-sizing: 17PX;
 }
 .ca{  
     display: flex;
@@ -122,81 +173,5 @@ tfoot{
     display: flex; 
     flex-direction: row;
     color: blue;
-    margin-left: 30px;
-}
-.row{  
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 16px;
-}
-.col-25{  
-    display: flex;
-    justify-content: space-between;
-    -ms-flex: 10px;
-    flex: 10PX;
-}
-.col-50{ 
-    -ms-flex: 25px;
-    flex: 25PX;
-}
-.col-75{ 
-    -ms-flex: 20px;
-    flex: 20PX;
-}
-.col-25,
-.col-50,
-.col-75{  
-   padding:16px;
-}
-.container{  
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-}
-input[type=text]{  
-    width: 50%;
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid#ccc;
-    border-radius: 10px;
-}
-label{  
-    margin-bottom: 4px;
-    display: block;
-}
-.icon-container{  
-    margin-bottom: 10px;
-    padding: 7px ;
-    font-size: 24px;
-}
-.btn{  
-    background-color: #04aa6d;
-    color: white;
-    padding: 12px;
-    margin: 10px ;
-    border: none;
-    width: 100px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 17px;
-    margin-left: 300PX;
-}
-.btn:hover{  
-    background-color: #45a049;
-    box-sizing: 17PX;
-}
-span.price{   
-    float: right;
-    color: gray;
-}
-@media(max-width:800px){  
-    .row{  
-        flex-direction: column-reverse;
-    }
-}
-.col-25{  
-    margin-bottom: 20px;
+    margin-left: 10px;
 }
