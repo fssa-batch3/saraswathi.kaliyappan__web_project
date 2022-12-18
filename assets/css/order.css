@@ -1,12 +1,9 @@
-body{
-    height: 800px;
-}
 header{  
     display: flex;
     justify-content: space-between;
     background-color: #b3e6ff;
     height:50px;
-   }
+}
 .navbar a{
        text-decoration: none;
        padding: 5px 12px;
@@ -87,7 +84,7 @@ h3{
     width: 290px;
     margin-left: 150px;
     margin-top: 130px;
-    background-color: pink;
+    background-color: lightgray;
     border-radius: 10px;
 }
 .left{
@@ -156,21 +153,26 @@ h3{
        background-color: gray;
        padding: 100px;
        font-family: 'Poppins', sans-serif;
-       margin-top: 200px;
-}
-.cs{   
+       margin-top: 100PX;
+   }
+   .cs{   
        display: flex;
        flex-direction: column;
        margin-left: 150px;
-}
-.ac{  
+   }
+   .ac{  
        display: flex;
        flex-direction: column;
-       margin-left: 250px
-} 
-.fa-solid{ 
+       margin-left: 250px;
+   } 
+   .fa-solid{ 
        display: flex; 
        flex-direction: row;
        color: blue;
-       margin-right: 15px;
-}
+       margin-left: 18px;
+   }
+   .fa-location{  
+       color: blue;
+   }
+   
+   
