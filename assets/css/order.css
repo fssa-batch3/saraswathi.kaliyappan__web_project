@@ -87,7 +87,9 @@ h3{
     width: 290px;
     margin-left: 150px;
     margin-top: 130px;
- }
+    background-color: pink;
+    border-radius: 10px;
+}
 .left{
     height:600px;
     width:70%;
