@@ -6,36 +6,36 @@ header{
     justify-content: space-between;
     background-color: #b3e6ff;;
     height:50px;
-   }
-   .navbar a{
+}
+.navbar a{
        text-decoration: none;
        padding: 5px 12px;
        font-size: larger;
        font-style: italic;
        color:  #990099;
-   }
-   .dropdown-link{  
+}
+.dropdown-link{  
        display: none;
        position: absolute;
        background-color: #f1f1f1;
        min-width: 160px;
        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
        z-index: 1;  
-   }
-   .dropdown-link a{   
+}
+.dropdown-link a{   
        color: black;
        padding: 12px 16px;
        text-decoration: none;
        display: block; 
-   }
-   .dropdown:hover .dropdown-link{
+}
+.dropdown:hover .dropdown-link{
        display: block;
-    }
-   .dropdown{
+}
+.dropdown{
        display: inline-block;
        position: relative;  
-   }
-   .dropbn{
+}
+.dropbn{
        color:  #990099;
        padding: 5px 12px;
        font-size: 15px;
@@ -43,71 +43,69 @@ header{
        background-color: #b3e6ff;;
        font-style: italic;
        font-size: larger;
-   }
-   input{
+}
+input{
        width: 300px;
        height: 20px;
        text-align: center;
        margin-top: 5px;
        border-radius: 5px soild black;
-   }
-   i{  
+}
+i{  
      position: relative;
      margin-left: 340px;
      margin-top: 10px;
-   }
-   .user i{  
+}
+.user i{  
        display: flex;
        margin-right: 30px;
-   }
-  img{ 
+}
+img{ 
     display: flex; 
     border: 1px solid #ddd;
     border-radius: 4px;
     padding:10px ;
     width: 150px;
-  }
-  img:hover{ 
+}
+img:hover{ 
      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-  .buy{
+}
+.buy{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     height: 350px;
     width: 100%;
    
-  }
-  h3{  
+}
+h3{  
     display: flex;
     flex-direction: row;
     margin-top: 100px;
     margin-left: 100px;
     font-size: x-large;
-  }
-  .bn{  
+}
+ght:  150px;
+    margin-top: 200px;
+}.bn{  
     display: flex;
     flex-direction: row;
-    margin-right:  150px;
-    margin-top: 200px;
-  }
-  
-  .left img {  
+    margin-ri
+.left img {  
     height: 300px;
     width: 290px;
-   
-  }
-  .left{
+    margin-left: 150px;
+}
+.left{
     height:500px;
     width:60%;
-    
-  }
-  .right{
+}
+.right{
     height:500px;
     width:50%;
     
-  }
-  .ca{  
+}
+.ca{  
     display: flex;
     flex-direction: row;
     border: 2px solid black;
