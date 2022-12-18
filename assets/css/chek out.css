@@ -129,63 +129,65 @@ tfoot{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0-16px;
+    margin: 16px;
 }
 .col-25{  
     display: flex;
     justify-content: space-between;
-    -ms-flex: 25%;
-    flex: 25%;
+    -ms-flex: 10px;
+    flex: 10PX;
 }
 .col-50{ 
-    -ms-flex: 50%;
-    flex: 50%;
+    -ms-flex: 25px;
+    flex: 25PX;
 }
 .col-75{ 
-    -ms-flex: 75%;
-    flex: 75%;
+    -ms-flex: 20px;
+    flex: 20PX;
 }
 .col-25,
 .col-50,
 .col-75{  
-   padding: 0 16px;
+   padding:16px;
 }
 .container{  
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgray;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 input[type=text]{  
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid#ccc;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 label{  
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     display: block;
 }
 .icon-container{  
-    margin-bottom: 20px;
-    padding: 7px 0;
+    margin-bottom: 10px;
+    padding: 7px ;
     font-size: 24px;
 }
 .btn{  
     background-color: #04aa6d;
     color: white;
     padding: 12px;
-    margin: 10px 0;
+    margin: 10px ;
     border: none;
     width: 100px;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
+    margin-left: 300PX;
 }
 .btn:hover{  
     background-color: #45a049;
-    box-sizing: ;
+    box-sizing: 17PX;
+    margin-left: 15PX;
 }
 span.price{   
     float: right;

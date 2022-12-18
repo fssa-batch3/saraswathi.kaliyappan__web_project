@@ -154,25 +154,25 @@ h3{
        padding: 100px;
        font-family: 'Poppins', sans-serif;
        margin-top: 100PX;
-   }
-   .cs{   
+}
+.cs{   
        display: flex;
        flex-direction: column;
        margin-left: 150px;
-   }
-   .ac{  
+}
+.ac{  
        display: flex;
        flex-direction: column;
        margin-left: 250px;
-   } 
-   .fa-solid{ 
+} 
+.fa-solid{ 
        display: flex; 
        flex-direction: row;
        color: blue;
        margin-left: 18px;
-   }
-   .fa-location{  
+}
+.fa-location{  
        color: blue;
-   }
+}
    
    
