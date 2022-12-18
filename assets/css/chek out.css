@@ -187,7 +187,6 @@ label{
 .btn:hover{  
     background-color: #45a049;
     box-sizing: 17PX;
-    margin-left: 15PX;
 }
 span.price{   
     float: right;
