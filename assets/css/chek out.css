@@ -1,15 +1,19 @@
+body{
+    height: 800px;
+  }
 header{  
     display: flex;
     justify-content: space-between;
-    background-color:  #b3e6ff;
-}
+    background-color: #b3e6ff;
+    height:50px;
+   }
 .navbar a{
        text-decoration: none;
        padding: 5px 12px;
        font-size: larger;
-       font-style: italic;
-       color:#990099;
-}
+      font-style: italic;
+       color: #990099;
+   }
 .dropdown-link{  
        display: none;
        position: absolute;
@@ -29,14 +33,14 @@ header{
 }
 .dropdown{
        display: inline-block;
-       position: relative;
+       position: relative;  
 }
 .dropbn{
        color: #990099;
        padding: 5px 12px;
        font-size: 15px;
        border: none;
-       background-color:#b3e6ff;
+       background-color: #b3e6ff;;
        font-style: italic;
        font-size: larger;
 }
@@ -53,18 +57,10 @@ i{
      margin-top: 10px;
 }
 .user i{  
-    display: flex;
-    margin-right: 30px;
+       display: flex;
+       margin-right: 30px;
 }
-body{  
-    background-color: var(--color-background);
-    display: grid;
-    font-family: var(--font-family-base);
-    line-height: 1.5;
-    min-block-size: 100vh;
-    padding: 5vmin;
-    place-items: center;
-}
+
 h2{  
     font-size: var(--font-size-h2);
     line-height: 0.5em;
@@ -132,7 +128,7 @@ label{
 .icon-container{  
     margin-bottom: 10px;
     padding: 7px ;
-    font-size: 24px;
+    justify-content: space-evenly;
 }
 .btn{  
     background-color: #04aa6d;
@@ -144,12 +140,13 @@ label{
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
-    margin-left: 600PX;
-    margin-bottom: 9px;
+    margin-left: 300PX;
+    margin-top: 35px;
 }
 .btn:hover{  
     background-color: #45a049;
     box-sizing: 17PX;
+    margin-top: 35px;
 }
 .ca{  
     display: flex;
