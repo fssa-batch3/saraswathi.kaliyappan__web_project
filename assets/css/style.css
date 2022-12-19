@@ -16,8 +16,9 @@ header{
     color: white;
 }  
 fieldset{    
-    margin-left: 25%;
-    margin-top: 20%; 
+    margin-right: 15%;
+    margin-top: 20%;
+    border: none; 
 }
 h1{   
     text-align: center;
@@ -47,7 +48,7 @@ button{
     font-size: 25px;
     background-color: white;
     color:blue;
-    border-radius: 4px;
+    border-radius: 5px;
     padding-left: 3px;
     justify-content: center
 }
