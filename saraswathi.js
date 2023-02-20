@@ -10,5 +10,5 @@ for(a=1; a<=7; a++){
      for(let b=1; b<=7; b++){ 
         output +=a+"7";
      }
+     console.log="output"
 }
-console.log="output"
