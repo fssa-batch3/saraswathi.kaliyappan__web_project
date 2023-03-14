@@ -1,7 +1,4 @@
 body{  
-  
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 600px;
     width: 600px;
     margin-left: 450px;
@@ -9,22 +6,22 @@ body{
     justify-content: center;
     border:3px solid black;
     border-radius: 10px;
-
-}
-h1{   
+  
+  }
+  h1{   
     text-align: center;
     color:blue;
     padding: 20px;
     font-size: 50px;
     font-style: italic;
-}
-
-form{
+  }
+  
+  form{
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-}
+  }
   label,input{
     margin-bottom: 15px;
     border-radius: 8px;
@@ -32,7 +29,7 @@ form{
   .error-message{
     color: red;
   }  
-button{ 
+  button{ 
     margin-top: 20px;
     align-self: center;  
     font-size: 25px;
@@ -44,21 +41,19 @@ button{
     justify-content: center;
     border: 3px solid rgb(15, 187, 226);   
     box-sizing: border-box;
-}
-button{
+  }
+  button{
     width: auto;
     padding: 5px 10px;  
     margin: 10px 5px; 
     margin-left: 200px; 
     margin-top: 25px;
-}
-
-input[type=text],[type=email],input[type=password] {   
+  }
+  input[type=text],[type=email],input[type=password] {   
     width: 70%;   
     margin: 8px 0;  
     padding: 20px ;   
     display: inline-block;   
-    border: 3px solid rgb(0, 153, 0);   
+    border: 3px solid	rgb(230, 153, 255);   
     box-sizing: border-box;
-}  
- 
+  } 

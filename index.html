@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">  
   <head> 
-      <title>SK Water</title>
-      <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8*">
+    <meta http-equiv="X-UA-compatable" concept="IF-edge*">
+    <meta name="viewport" contant="wid =1.0">
+      <title>login registration form</title>
+      <link rel="stylesheet" href="../assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
   </head>
 
   <body>
-    <fieldset>
-      <div class="in">
-           <h1>login Page</h1>
-        <header>
-          <form action="google" metheod="post">    
-              <label for="Name">Name:<input type="text" placeholder="name" id="name"></label><br><br>
-              <label for="Email">Email:<input type="text" placeholder="email" id="email"></label><br><br>
-              <label for="Psw">Password:<input type="password" placeholder="psw" id="password"></label><br><br>
-            <a href="../saraswathi.kaliyappan__web_project/pages/home.html" ><button type="button" onclick="">Sign in</button></a>
-          </form>
-        </header>
-      </div>
-    </fieldset>
-    <script>
+    
+<form action="" id="signupform"> 
 
-      //localStorage.getItem("key", value)
-   
-      const user_email= localStorage.getItem("user_email",email)
-   
-      console .log(user_email);
-   
-      document.getElementById("user_email").innerText = user_email
+  <h1 class="h3 mb-3 fw-normal">Sign Up </h1> 
+  
+    <input type="text"  id="user_name" placeholder="name"  pattern="[A-Za-z]{1,24}" title="username is cannot contain space" required><br><br>
+     <input type="email" id="email" placeholder="email"  required><br><br>
+    <input type="password" id="password" placeholder="password"   pattern="[A-Za-z]{1,10}"  required ><br><br>
+    
+  <button type="submit"> Sign in</button>
+  </form> 
+  
+    <script>
+let adminform = document.getElementById("signupform");
+
+let username = document.getElementById("user_name");
+
+let email = document.getElementById("email");
+
+let password = document.getElementById("password");
+
+let user_records = JSON.parse(localStorage.getItem("user_list"));
+
+adminform.addEventListener("submit", e => {
+e.preventDefault();
+
+userform();
+});
+function userform(){
+
+let namevalue = username.value.trim();
+
+let emailvalue = email.value.trim();
+
+let passwordvalue = password.value.trim();
+
+let records = [];
+
+let user = {};
+
+user["username"] = namevalue;
+user["email"] = emailvalue;
+user["password"] = passwordvalue;
+user["date_of_birth"]= "";
+user["phone_number"]= "";
+user["address"]= "";
+
+
+let user_information = JSON.parse(localStorage.getItem("user_list")) ?? records;
+let success = true;
+if (user_information != null) {
+ for ( let i = 0; i < user_information.length; i++){
+ if (user_information[i].emailid == emailvalue) {
+  success = false;
+  break;
+  }
+ }
+}
+if(success) {
+user_information.push(user);
+localStorage.setItem("user_list",JSON.stringify(user_information));
+alert("account create successfuly");
+window.location.href = "../login.html";
+}
+else{
+  alert("Already you have an account")
+}
+
+}
+
+     
+  
      </script>
   </body>
 </html>
